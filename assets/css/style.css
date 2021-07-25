@@ -1,0 +1,103 @@
+body {
+    background-color: #D3D3D3;
+  }
+  .navbar {
+    max-height: 50px;
+  }
+  .navigation .navbar-brand {
+    color: #FFFFFF;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: #219fb3;
+    font-family: cochin;
+  }
+  .navbar {
+    background-color: #FFFFFF;
+    font-size: 50px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: #FFFFFF;
+  }
+  .dropdown-item {
+    color: #2D9EAF;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #2D9EAF;
+  }
+  .nav-link:hover {
+    background-color:#2D9EAF;
+   }
+  .navbar-brand:hover {
+  color: #2D9EAF;
+  }
+  a {
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+  img{
+    width:100%;
+    height:100%;
+  }
+  .active, .panel:hover {
+    border-color:#2D9EAF;
+    border-style: solid;
+  }
+  .visualization {
+    width:70%;
+    height:100%;
+  }
+  .title {
+    color: #2D9EAF;
+    font-family: cochin;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .subtitle {
+    color: #2D9EAF;
+    font-family: cochin;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  p {
+  color: #00008B;
+  font-family: 'segoe ui';
+  font-size: 16px;
+  }
+  .box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+@media(max-width: 992px) {
+    .navbar {
+        max-height: none;
+        padding: inherit;
+        background: rgb(9, 169, 172);
+    }
+    .navbar div {
+        margin: inherit;
+        background-color: rgb(255,255,255);
+    }
+    .navbar-brand {
+        padding: 10px;
+    }
+    button{
+        margin-right: 0px;
+    }
+    button:focus {
+        outline: 1px dotted;
+        outline: auto 5px;
+    }
+    .dropdown{
+    margin: inherit;
+    }
+    .nav-item{
+        margin: inherit;
+        }
+    }
