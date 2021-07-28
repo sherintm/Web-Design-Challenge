@@ -1,5 +1,5 @@
 # Web-Design-Challenge
-This is a dashboard website for visualizationing the weather data.
+This is a dashboard website for visualizationing the weather data. It is deployed to https://sherintm.github.io/Web-Design-Challenge/
 
 It contains a summary of visualizations as the landing page and has links to each visualization.
 
